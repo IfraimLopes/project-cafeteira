@@ -36,6 +36,7 @@ input[type="submit"] {
   font-weight: 500;
   padding: 10px;
   margin: 15px;
+  transition-duration: 0.7s;
 }
 
 .contaner2 {
@@ -67,8 +68,8 @@ input[type="submit"] {
 .c3 {
   display: flex;
   flex-direction: row;
-  gap: 8px;
-  margin: 50px;
+  gap: 5px;
+  padding-top: 90px;
   justify-content: center;
   color: white;
   padding-bottom: 20px;
@@ -113,14 +114,17 @@ input[type="submit"] {
   width: 300px;
   margin: 20px;
   text-align: center;
+  transition-duration: 0.7s;
 }
 
 .cotaner3 > .menu:hover {
+  border-radius: 20px;
   background-color: rgb(212, 152, 40);
   color: black;
 }
 
 .cotaner3 > .menu > input:hover {
+  border-radius: 10px;
   background-color: white;
   color: black;
 }

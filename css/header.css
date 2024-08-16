@@ -7,9 +7,18 @@
 }
 
 nav {
+  position: fixed; /* Mantém o menu fixo no topo */
+  width: 100%; /* Faz o menu ocupar toda a largura */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: 12%;
+  margin: 10px;
+  background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  border-bottom: 1px solid rgba(255, 253, 253, 0.2);
 }
 
 nav > ul {
@@ -28,6 +37,7 @@ nav > ul > li > a {
 nav > ul > li {
   font-size: 15px;
   text-decoration: none;
+  transition-duration: 0.5s;
 }
 
 nav > ul > li:hover {
@@ -52,7 +62,5 @@ nav > img {
 }
 
 header {
-  padding-bottom: 10px;
-  font-family: "Poppins", sans-serif;
   border-bottom: 1px solid rgba(255, 253, 253, 0.2);
 }
