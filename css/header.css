@@ -53,11 +53,12 @@ nav > img {
 #icon {
   margin: 22px;
   color: white;
+  transition-duration: 0.5s;
 }
 
 #icon:hover {
   background-color: rgb(212, 152, 40);
-  padding: 2px;
+  padding: 3px;
   border-radius: 8%;
 }
 
